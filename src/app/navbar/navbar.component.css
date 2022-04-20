@@ -1,0 +1,23 @@
+.form {
+  background-color: rgb(14, 10, 13);
+  overflow: hidden;
+}
+.form a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 20px;
+
+}
+
+.form a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+.form a.active {
+  background-color: #04aa6d;
+  color: white;
+}

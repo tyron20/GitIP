@@ -1,0 +1,30 @@
+<body>
+
+<div class="form">
+  <h1>Get Username</h1><br>
+  <form (ngSubmit)="getUsername(userInput.value)">
+    <label for="fname">first name </label><br />
+    <input #userInput type="text" id="fname" name="fname" />
+    <!-- <label for="lname">Last name:</label><br /> -->
+    <!-- <input type="text" id="lname" name="lname" /><br /> -->
+    <button type="submit">submit</button>
+  </form>
+
+  <div class="container" *ngIf="user">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title">{{ user.login }}</div>
+          </div>
+          <div class="card-text">
+            <p>followers: {{ user.followers }}</p>
+            <p>following: {{ user.following }}</p>
+            <a href="{{ user.html_url }}" target="_blank">githuburl</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

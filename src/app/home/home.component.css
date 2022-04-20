@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background:linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.2)),url("../../assets/pexels-james-wheeler-1519088.jpg");
+
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+.logo img{
+  width: 100px;
+  padding-left: 5%;
+  float: left;
+  padding-top: 2%;
+  filter: invert(i);
+}
+
+.welcome-text{
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+
+}
+.welcome-text h1{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+
+}
+
+.welcome-text p{
+  color: white;
+}
